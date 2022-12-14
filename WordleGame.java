@@ -71,8 +71,7 @@ class WordleGame {
                 // loop through wordUniq and figure out if is uniq situation
                 // and set weights for the numbers
                 // make function to assign weights
-                System.out.println(wordUniq);
-                System.out.println(guessUniq);
+          
                 ArrayList<String> used = new ArrayList<>();
                 for(int i = 0; i < guess.size(); i++) {
                         System.out.println(countInArray(guess.get(i), used));
